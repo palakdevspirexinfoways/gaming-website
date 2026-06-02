@@ -28,7 +28,7 @@ export default function Navbar() {
             <Gamepad2 size={20} />
           </div>
           <span className="text-2xl font-black tracking-wide text-white">
-            Redrex<span className="text-red-500">.</span>
+            G5<span className="text-red-500">.</span>
           </span>
         </div>
 

@@ -5,7 +5,7 @@ import imgSpade from '../../assets/card_spade.png';
 import imgShop from '../../assets/card_shop.png';
 
 export default function Vip() {
-  const downloadUrl = "https://www.g5.bet/65609024";
+  const downloadUrl = "https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735";
 
   return (
     <section id="vip-perks" className="relative w-screen px-6 py-20 flex flex-col items-center bg-gradient-to-b from-[#11131e] to-[#0a0b10] border-t border-white/[0.03] overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">

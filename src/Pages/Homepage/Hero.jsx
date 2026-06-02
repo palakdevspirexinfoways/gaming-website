@@ -16,6 +16,14 @@ export default function Hero() {
       id="home"
       className="relative w-screen min-h-[500px] md:min-h-[650px] flex flex-col justify-start overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]"
     >
+      <style>
+        {`
+          @keyframes jabuk {
+            0%, 100% { filter: brightness(1); box-shadow: 0 0 30px rgba(239,68,68,0.6); transform: scale(1); }
+            50% { filter: brightness(1.6); box-shadow: 0 0 80px rgba(255,255,255,0.9), 0 0 40px rgba(239,68,68,1); transform: scale(1.05); }
+          }
+        `}
+      </style>
       {/* Background Video with Poster Fallback */}
       <video
         autoPlay
@@ -57,28 +65,17 @@ export default function Hero() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.
         </p>
 
-        {/* Dual Parallelogram Buttons (BUY THEME and MEET US) */}
-        <div className="flex gap-5">
-          
-          {/* BUY THEME Button (Glowing Red Fill) */}
-          <button 
-            onClick={() => handleScroll('wheel-section')}
-            style={{ clipPath: 'polygon(15px 0%, 100% 0%, calc(100% - 15px) 100%, 0% 100%)' }}
-            className="bg-gradient-to-br from-red-500 to-amber-600 border-none text-white text-[11px] font-black tracking-widest py-3.5 px-10 cursor-pointer shadow-[0_0_20px_rgba(239,68,68,0.4)] hover:scale-105 hover:shadow-[0_0_30px_rgba(239,68,68,0.7)] transition-all outline-none uppercase"
-          >
-            BUY THEME
-          </button>
-
-          {/* MEET US Button (Glowing White Parallelogram Border) */}
-          <button 
-            onClick={() => handleScroll('quests-section')}
-            style={{ clipPath: 'polygon(15px 0%, 100% 0%, calc(100% - 15px) 100%, 0% 100%)' }}
-            className="bg-white/5 border border-white/80 text-white text-[11px] font-black tracking-widest py-3.5 px-10 cursor-pointer hover:scale-105 hover:border-red-500 hover:bg-red-500/10 transition-all outline-none uppercase"
-          >
-            MEET US
-          </button>
-
-        </div>
+        {/* Animated Download Button */}
+        <a 
+          href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735"
+          style={{ 
+            clipPath: 'polygon(20px 0%, 100% 0%, calc(100% - 20px) 100%, 0% 100%)',
+            animation: 'jabuk 0.5s infinite'
+          }}
+          className="bg-gradient-to-br from-red-600 to-amber-500 border-none text-white text-lg md:text-xl font-black tracking-[0.2em] py-5 px-14 cursor-pointer outline-none uppercase flex items-center justify-center gap-3"
+        >
+          DOWNLOAD NOW
+        </a>
       </div>
 
     </section>

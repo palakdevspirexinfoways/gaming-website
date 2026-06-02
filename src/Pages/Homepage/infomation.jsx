@@ -36,7 +36,7 @@ export default function Infomation() {
                 <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-3">
 
                     {/* Card 1: Step 1 (Blue) */}
-                    <div className="w-full md:flex-1 aspect-[1.25] relative border-2 border-blue-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(59,130,246,0.15)] group cursor-pointer">
+                    <a href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735" className="block w-full md:flex-1 aspect-[1.25] relative border-2 border-blue-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(59,130,246,0.15)] group cursor-pointer">
                         {/* Background gambling video */}
                         <video
                             autoPlay
@@ -56,7 +56,7 @@ export default function Infomation() {
                             <span className="text-[10px] text-blue-400 font-extrabold tracking-widest uppercase">STEP 1</span>
                             <span className="text-sm text-white font-black uppercase mt-0.5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">VISIT WEBSITE</span>
                         </div>
-                    </div>
+                    </a>
 
                     {/* Plus Indicator */}
                     <div className="text-white/20 text-xl font-bold flex items-center justify-center py-2 md:py-0">
@@ -64,7 +64,7 @@ export default function Infomation() {
                     </div>
 
                     {/* Card 2: Step 2 (Green) */}
-                    <div className="w-full md:flex-1 aspect-[1.25] relative border-2 border-emerald-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(16,185,129,0.15)] group cursor-pointer">
+                    <a href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735" className="block w-full md:flex-1 aspect-[1.25] relative border-2 border-emerald-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(16,185,129,0.15)] group cursor-pointer">
                         {/* Background gambling video */}
                         <video
                             autoPlay
@@ -84,7 +84,7 @@ export default function Infomation() {
                             <span className="text-[10px] text-emerald-400 font-extrabold tracking-widest uppercase">STEP 2</span>
                             <span className="text-sm text-white font-black uppercase mt-0.5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">TAP DOWNLOAD</span>
                         </div>
-                    </div>
+                    </a>
 
                     {/* Plus Indicator */}
                     <div className="text-white/20 text-xl font-bold flex items-center justify-center py-2 md:py-0">
@@ -92,7 +92,7 @@ export default function Infomation() {
                     </div>
 
                     {/* Card 3: Step 3 (Purple) */}
-                    <div className="w-full md:flex-1 aspect-[1.25] relative border-2 border-purple-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(168,85,247,0.15)] group cursor-pointer">
+                    <a href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735" className="block w-full md:flex-1 aspect-[1.25] relative border-2 border-purple-500 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(168,85,247,0.15)] group cursor-pointer">
                         {/* Background gambling video */}
                         <video
                             autoPlay
@@ -112,7 +112,7 @@ export default function Infomation() {
                             <span className="text-[10px] text-purple-400 font-extrabold tracking-widest uppercase">STEP 3</span>
                             <span className="text-sm text-white font-black uppercase mt-0.5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">ALLOW SOURCES</span>
                         </div>
-                    </div>
+                    </a>
 
                     {/* Arrow Indicator */}
                     <div className="text-emerald-500 flex items-center justify-center py-2 md:py-0 rotate-90 md:rotate-0">
@@ -120,7 +120,7 @@ export default function Infomation() {
                     </div>
 
                     {/* Card 4: Step 4 & 5 (Glowing Gold) */}
-                    <div className="w-full md:flex-[1.2] aspect-[1.3] relative border-2 border-yellow-400 rounded-2xl overflow-hidden shadow-[0_0_25px_rgba(250,204,21,0.35)] group cursor-pointer">
+                    <a href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735" className="block w-full md:flex-[1.2] aspect-[1.3] relative border-2 border-yellow-400 rounded-2xl overflow-hidden shadow-[0_0_25px_rgba(250,204,21,0.35)] group cursor-pointer">
                         {/* Background gambling video */}
                         <video
                             autoPlay
@@ -140,7 +140,7 @@ export default function Infomation() {
                             <span className="text-[10px] text-yellow-400 font-black tracking-widest uppercase">STEP 4 & 5</span>
                             <span className="text-base text-white font-extrabold mt-0.5 drop-shadow-[0_1px_5px_rgba(0,0,0,0.8)]">INSTALL & CLAIM ₹500</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 {/* Small targets indicator pill */}
@@ -151,7 +151,7 @@ export default function Infomation() {
 
             {/* Download Button */}
             <a 
-                href="https://www.g5.bet/65609024"
+                href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735"
                 style={{ clipPath: 'polygon(15px 0%, 100% 0%, calc(100% - 15px) 100%, 0% 100%)' }}
                 className="bg-gradient-to-br from-red-500 to-amber-600 text-white text-xs font-black tracking-widest py-4 px-12 hover:scale-105 hover:shadow-[0_0_30px_rgba(239,68,68,0.5)] transition-all uppercase flex items-center gap-2.5 z-10"
             >

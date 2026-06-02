@@ -47,7 +47,7 @@ export default function AllGames() {
 
                     {/* Download Button */}
                     <a 
-                        href="https://www.g5.bet/65609024"
+                        href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735"
                         style={{ clipPath: 'polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%)' }}
                         className="bg-gradient-to-br from-red-500 to-amber-600 text-white text-[10px] font-black tracking-widest py-3 px-8 hover:scale-105 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] transition-all uppercase outline-none"
                     >
@@ -94,7 +94,7 @@ export default function AllGames() {
 
                     {/* Download Button */}
                     <a 
-                        href="https://www.g5.bet/65609024"
+                        href="https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735"
                         style={{ clipPath: 'polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%)' }}
                         className="bg-gradient-to-br from-red-500 to-amber-600 text-white text-[10px] font-black tracking-widest py-3 px-8 hover:scale-105 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] transition-all uppercase outline-none"
                     >

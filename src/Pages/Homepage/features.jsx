@@ -3,7 +3,7 @@ import { ShieldCheck, Zap, Smartphone, Sparkles, Landmark, Award, Download, Laye
 
 export default function Features() {
   const [activeTab, setActiveTab] = useState('specs');
-  const downloadUrl = "https://www.g5.bet/65609024";
+  const downloadUrl = "https://g5.bet/g5_release.apk?referrer=706169642533446b62673977332532366368616e6e656c2533444735";
 
   return (
     <section id="features" className="relative w-screen px-6 py-20 flex flex-col items-center bg-[#07090e] border-t border-white/[0.02] overflow-hidden left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
